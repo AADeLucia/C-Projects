@@ -1,0 +1,10 @@
+total 64
+-rw-r--r-- 1 ubuntu ubuntu    50 Mar  9 20:58 Makefile
+-rw-r--r-- 1 ubuntu ubuntu   624 Feb 26 18:49 README.md
+-rwxr-xr-x 1 ubuntu ubuntu  8724 Feb 25 05:52 few
+-rwxr-xr-x 1 ubuntu ubuntu  8784 Feb 25 05:45 fewr
+-rw-r--r-- 1 ubuntu ubuntu  1162 Feb 25 05:52 fork_exec_wait.c
+-rw-r--r-- 1 ubuntu ubuntu  1370 Feb 25 03:29 fork_exec_wait_redirect.c
+-rwx------ 1 ubuntu ubuntu     0 Mar  9 21:54 out.txt
+-rwxr-xr-x 1 ubuntu ubuntu 16552 Mar  9 21:14 shell
+-rw-r--r-- 1 ubuntu ubuntu  4029 Mar  9 21:15 shell.c
