@@ -15,7 +15,7 @@ Project assigned and created by Dr. Myers at Rollins College
 
 ##Cryptography
 ####Description
-
+Two types of encryption: Caesar and ADFGX
 
 ####Credit
 Project assigned and created by Dr. Myers at Rollins College
