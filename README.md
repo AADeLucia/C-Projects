@@ -1,14 +1,25 @@
 # C-Projects
 Examples of my C coding from course projects
 
+##Remote In-Memory Caching Service
+####Description
+A multithreaded server (producer) which performs hashtable operations for connecting clients. The hashtable operations include lookup, remove, insert, and print. In order to avoid race conditions, the server uses locks when performing the hashtable functions.
+
+####Programming Features of Note
+1. Understanding of producer-consumer relationship
+2. Use of semaphores to avoid race conditions
+3. Hashtable implementation and functions
+
+####Credit
+Project assigned and created by Dr. Myers at Rollins College
+
 ##Lexical analyzer for Pascal
-####Purpose
+####Description
 A lexical analyzer for the Pascal language which takes a Pascal program as input
 and outputs identified tokens.
 
 ####Credit
-Project assigned by Dr. Dan Myers.
-Interpreted by Alexandra DeLucia.
+Project assigned and created by Dr. Myers at Rollins College
 
 ##Unix shell with additional functionality
 ####Description
@@ -27,5 +38,3 @@ few added features:
 
 ####Credit
 Project assigned and created by Dr. Myers at Rollins College
-
-##Multi threaded hashtable
