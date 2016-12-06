@@ -13,10 +13,9 @@ A multithreaded server (producer) which performs hashtable operations for connec
 ####Credit
 Project assigned and created by Dr. Myers at Rollins College
 
-##Lexical analyzer for Pascal
+##Cryptography
 ####Description
-A lexical analyzer for the Pascal language which takes a Pascal program as input
-and outputs identified tokens.
+
 
 ####Credit
 Project assigned and created by Dr. Myers at Rollins College
@@ -35,6 +34,14 @@ few added features:
 1. execvp
 2. forking and utilizing the child process
 3. Manipulation of file descriptors, mainly 'stdout'
+
+####Credit
+Project assigned and created by Dr. Myers at Rollins College
+
+##Lexical analyzer for Pascal
+####Description
+A lexical analyzer for the Pascal language which takes a Pascal program as input
+and outputs identified tokens.
 
 ####Credit
 Project assigned and created by Dr. Myers at Rollins College
