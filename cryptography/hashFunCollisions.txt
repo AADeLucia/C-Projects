@@ -1,0 +1,15 @@
+To begin, a hash table is only as good as its hash function. An ideal hash 
+function H(m) is one that has no collisions, where a collision is defined as the 
+situation in which two input values, a and b, are mapped to the same output, 
+so H(a) = H(b) = y. A hash function that takes a message of m arbitrary length 
+and maps it to an n-bit message digest is guaranteed to have collisions. 
+This is due to a situation referred to as the Pigeonhole Principle. The principle 
+states that if you try to place (n+1) pigeons in n number of holes then there 
+will be at least one hole with more than one pigeon in it. This is directly 
+applicable to the use of function that produces an n-length output. This is
+because there is only a finite number of outputs or "pigeonholes" that an n-bits
+can be, as an n-bit message digest can only have 2^n possible outcomes, since each
+bit can only be 0 or 1. If H(m) is used to hash 2^n + 1 inputs, then according
+to the pigeonhole principle, there has to be two inputs (pigeons) in the same
+output (pigeonhole), since there is not enough room for each input to have a
+unique output.
